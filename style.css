@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    height: 50vh;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    background-color: #333;
+    color: #fff;
+}
+
+.first {
+    height: 100%;
+    width: 25%;
+    /* background-color: #333; */
+    color: white;
+}
+
+.second {
+    height: 100%;
+    width: 25%;
+}
+
+.third {
+    height: 100%;
+    width: 25%;
+
+}
+
+.fourth {
+    height: 100%;
+    width: 25%;
+
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+
+
+}
+
+.footer_number {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    display: block;
+}
+
+.icons li a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 14px;
+    background-color: #888;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.google_play a {
+    display: flex;
+    border: 2px solid gray;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+.google_play img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.second {
+    color: #fff;
+    position: relative;
+}
+
+.second h1 {
+    font-size: 25px;
+}
+
+.second .bir a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    right: 55%;
+    font-size: 14px;
+}
+
+.third h1 {
+    font-size: 25px;
+}
+.third .IKKI a{
+    font-size:14px;
+    bottom: 7%;
+    right: 38%;
+}
+
+.ahref {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 4%;
+    right: 35%;
+}
+
+.ahref4 {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 11%;
+    right: 5%;
+}
+
+.fourth.TELEGRAM {
+    width: 100px;
+    height: 25px;
+    border: 3px solid red;
+}
+.fourth h1{
+    font-size: 25px;
+}
